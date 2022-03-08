@@ -76,3 +76,10 @@ ul {
 li {
   margin-left: 25px;
 }
+
+header h1 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
