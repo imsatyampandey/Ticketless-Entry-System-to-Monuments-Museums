@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-1,
+.nav-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-1 img {
+  width: 100%;
+}
+
+.nav-1 .logo {
+  width: 20%;
+}
+
+.nav-2 {
+  background-color: #39a7cd;
+}
+
+.nav-2 a {
+  color: #000000;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.nav-2 a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.container {
+  padding: 50px 100px;
+  background: url(https://asi.payumoney.com/bg.f2c1dd1d970b17919238.jpg);
+}
+
+.inner-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  /* text-align: center; it's left alligned in the original site so I commented it */
+}
+
+.inner-container h2 {
+  font-weight: 400;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  width: 25%;
+  margin: 20px 0;
+}
+
+.col-heading {
+  text-align: left;
+  font-size: 18px;
+}
+
+.col-body {
+  width: 100%;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-left: 25px;
+}
