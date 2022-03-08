@@ -1,6 +1,6 @@
 function checkAppender(data) {
     let list = document.getElementById("monumentsList");
-
+    list.innerHTML = "";
     for (var value of data) {
         $('#monumentsList')
             .append(`<input type="checkbox" id="${value}" name="interest" value="${value}">`)
